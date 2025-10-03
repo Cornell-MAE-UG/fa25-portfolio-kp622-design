@@ -1,6 +1,6 @@
 ---
 layout: default
-title: <Kayla Palumbo>
+title: Kayla Palumbo
 ---
 
 ## About Me

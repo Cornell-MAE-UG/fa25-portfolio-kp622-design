@@ -1,6 +1,6 @@
 ---
 layout: default
-title: <Your Name> - Portfolio
+title: Kayla Palumbo - Portfolio
 permalink: /projects/
 ---
 

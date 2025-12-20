@@ -3,14 +3,10 @@ layout: project
 title: ENGRD 2210 Heat Exchanger Lab
 description: Please select a real-world instance of a device or system that we have learned about in this course, explain how it works in detail, and then discuss how its performance would change under a change in design or operating conditions.
 technologies: none
-images:
-- /assets/images/HeatExchangerSetUp.png
+image: /assets/images/HeatExchangerSetUp.png
 ---
 
 
 In an ENGRD 2210: Thermodynamics assignment, we were asked to analyze a heat transfer device. The device was a water-to-water heat exchanger with two loops, one of which pulled water from a heated reservior, and the other from a cooled reservior. Instead of mixing the water, heat is exchanged through this device by both conduction, between the inner metal separating the channels, and convection, between the fluid and metal surfaces. We tested multiple conditions, such as parallel flow, counter flow, and parallel flow with a pinched hot water inlet, reducing flow. It was also assumed that this is an ideal heat exchanger, so there is no heat transfer to the surroundings. Attached is a picture of our experimental counter flow set up.
-images:
-- /assets/images/ThermoPortfolio-1.jpg
-- /assets/images/ThermoPortfolio-2.jpg
-- /assets/images/ThermoPortfolio-3.jpg
-- /assets/images/ThermoPortfolio-4.jpg
+As part of our system change analysis, we pinched the hot tube inlet, reducing the hot mass flowrate white keeping the cold mass flowrate constant. From our collected data, we saw that reducing hot mass flowrate leads to a larger temperature drop in the hot water to supply the same heat to the cool stream. Since there is less water in the hot stream, it therefore leaves at a lower temperature.
+Lastly, we were told to compare our experimental heat transfer device to a real-world heat exchanger. I chose to analyze the GEA C2G Plate Heat Exchanger, manufactured by GEA Group, which is primarily used in HVAC, refrigeration, and liquid-liquid heat transfer. Using publically accessible data sheets, I was able to perform energy and entropy balances. Through this, I found that both the experimental and actual systems obey the first law, and counter-flow is generally a more effective system. GEA C2G highlighted a real device, with measurement uncertainty, assumptions, and unavoidable losses. It also allowed me to directly evaluate entropy generation, showing that heat transfer across finite temperature differences is irreversible. To fully apply my classroom knowledge to this real-world device, I did another design-change analysis. I concluded that when reducing the hot-side mass flowrate in the GEA C2G Heat Exchanger, the hot stream's thermal capacity rate will decrease, the hot fluid undergoes a larger temperature drop, there is less uniform temperature differences along the exchanger, and entropy generation increases. This effect, however, is moderated by large surface area and counter flow. Both systems demonstrate that lower flow rate does not imply better thermodynamic performance, even if outlet temperatures appear favorable. 

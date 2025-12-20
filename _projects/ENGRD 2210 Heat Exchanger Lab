@@ -3,10 +3,11 @@ layout: project
 title: ENGRD 2210 Heat Exchanger Lab
 description: Please select a real-world instance of a device or system that we have learned about in this course, explain how it works in detail, and then discuss how its performance would change under a change in design or operating conditions.
 technologies: none
-image: /assets/images/ThermoPortfolio-1.jpg
-image: /assets/images/ThermoPortfolio-2.jpg
-image: /assets/images/ThermoPortfolio-3.jpg
-image: /assets/images/ThermoPortfolio-4.jpg
+images:
+- /assets/images/ThermoPortfolio-1.jpg
+- /assets/images/ThermoPortfolio-2.jpg
+- /assets/images/ThermoPortfolio-3.jpg
+- /assets/images/ThermoPortfolio-4.jpg
 ---
 
 

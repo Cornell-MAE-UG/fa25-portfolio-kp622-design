@@ -1,0 +1,13 @@
+---
+layout: project
+title: ENGRD 2210 Heat Exchanger Lab
+description: Please select a real-world instance of a device or system that we have learned about in this course, explain how it works in detail, and then discuss how its performance would change under a change in design or operating conditions.
+technologies: none
+image: /assets/images/ThermoPortfolio-1.jpg
+image: /assets/images/ThermoPortfolio-2.jpg
+image: /assets/images/ThermoPortfolio-3.jpg
+image: /assets/images/ThermoPortfolio-4.jpg
+---
+
+
+In an ENGRD 2210: Thermodynamics assignment, we were asked to analyze a heat transfer device. The device was a water-to-water heat exchanger with two loops, one of which pulled water from a heated reservior, and the other from a cooled reservior. Instead of mixing the water, heat is exchanged through this device by both conduction, between the inner metal separating the channels, and convection, between the fluid and metal surfaces. We tested multiple conditions, such as parallel flow, counter flow, and parallel flow with a pinched hot water inlet, reducing flow. It was also assumed that this is an ideal heat exchanger, so there is no heat transfer to the surroundings. Attached is my write up of the device and the collected data, as well as an analysis of a similar, commercially available heat transfer device (GEA C2G Plate Heat Exchanger).

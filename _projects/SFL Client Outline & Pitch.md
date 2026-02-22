@@ -1,4 +1,7 @@
 ---
+title: "SFL Client Outline & Pitch"
+layout: project
+image: /assets/sfl-sketch.jpeg
 
 fontsize: 11pt
 geometry: margin=1in
@@ -80,4 +83,4 @@ Test conveyor belt with an effective sorting system attached to the conveyor
 
 ## Figure
 
-![Figure 1: Proposed inline pneumatic sorting system](sorter.png){ width=0.5\textwidth }
+![Proposed inline pneumatic sorting system](/assets/sfl-sketch.jpeg) <img src="/assets/sfl-sketch.jpg" width="400">

@@ -83,4 +83,4 @@ Test conveyor belt with an effective sorting system attached to the conveyor
 
 ## Figure
 
-![Proposed inline pneumatic sorting system](/assets/sfl-sketch.jpeg) <img src="/assets/sfl-sketch.jpg" width="400">
+![Proposed inline pneumatic sorting system](/assets/sfl-sketch.jpeg)

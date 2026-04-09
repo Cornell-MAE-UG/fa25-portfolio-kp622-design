@@ -90,4 +90,59 @@ Test conveyor belt with an effective sorting system attached to the conveyor
 ![Proposed inline pneumatic sorting system](/assets/sfl-sketch.jpeg)
 
 ## Functional Prototype
-
+1 Overview
+This report documents the design, assembly, and testing of our functional prototype for mechan-
+ically removing spotted lanternfly (SLF) models from grape clusters. The prototype includes a
+rotating brush mounted on a shaft powered by a drill and a manually simulated conveyor system.
+2 Parts List and Specifications
+2.1 Shaft
+• McMaster Code: 8920K231
+• Unit Cost: $9.77
+• Length: 1 ft
+• Length Tolerance: -0.005” to 0”
+• Diameter 1”
+• Diameter Tolerance: -0.002” to 0”
+• Material: Low-Carbon Steel, Grade 1018
+• Shape: Rod and Disc
+• Yield Strength: 54,000 psi
+• Fabrication: Cold Worked
+• Hardness: Rockwell B70
+• Heat Treatable: Yes
+• Certificate: Material Certificate with Traceable Lot Number
+• Specifications Met: ASTM A108
+• Straightness Tolerance: Not Rated
+• Coefficient of Thermal Expansion: 7.1 × 10−6
+• Elongation: 15%
+• Material Composition: C 0.13-0.20%, Mn 0.30-0.90%, P 0.04% max, Si 0.15-0.30%, S 0.50%
+max, Fe remainder
+• Additional Specifications: SDS, RoHS, REACH, DFARS
+• Country of Origin: USA
+• Fabrication Notes: Machined 1.75 in from one end to 0.48 in diameter to fit inside drill chuck.
+2
+2.2 Brush
+• McMaster Code: 7442T11
+• Unit Cost: $8.95
+• Brush Length: 1ft
+• Bristle Material: Polyester Plastic
+• Backing Material: Stainless Steel
+• Bristle Dimensions: 3/16” W × 7/32” H, Overall Diameter: 1”, Bristle Diameter: 0.008”
+• Color: White
+• Max Temperature: 200°F
+• Compliance: FDA 21 CFR 177.1660
+2.3 Drill
+• Model: Dewalt Drill
+• Source: Taylor Design Studio
+2.4 Conveyor Simulation Components
+• Cardboard Piece
+– Simulates conveyor surface
+– Source: Taylor Design Studio
+• Wooden Boards
+– Support frame
+– Source: Taylor Design Studio
+• Zip Ties
+– Secure components
+– Source: Taylor Design Studio
+• Glue
+– Temporary bonding
+– Source: Taylor Design Studio
+2.5 Assembly Sketches and Photos

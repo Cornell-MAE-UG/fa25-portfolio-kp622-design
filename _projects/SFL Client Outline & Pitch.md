@@ -308,7 +308,7 @@ Conclusion: Adding alignment markings on shaft and brush sections and using tigh
 or small clamps will improve repeatability. Prototype is sufficiently stable for testing, but next
 iteration should reinforce conveyor base.
 
-5 Success Criteria
+## 5 Success Criteria
 
 The prototype must efficiently remove SLF models while remaining safe and repeatable for testing.
 - SLF Removal Efficiency: At least 90% removal of SLF models after one pass. Measured by counting removed models. High priority.

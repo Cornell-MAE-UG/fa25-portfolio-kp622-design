@@ -1,5 +1,5 @@
 ---
-title: "SFL Client Outline & Pitch"
+title: "SFL Client Outline, Pitch, & Prototype"
 layout: project
 image: /assets/sfl-sketch.jpeg
 

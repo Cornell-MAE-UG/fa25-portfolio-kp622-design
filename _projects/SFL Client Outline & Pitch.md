@@ -21,7 +21,11 @@ header-includes:
 **Team:** Di-Vine Intervention **Client(s):** Cornell CALS Extension / E\&J Gallo Winery / National Grape
 
 ---
+## Table of Contents
+[Client Pitch](#client-pitch)
+[Functional Prototype](#functional-prototype)
 
+## Client Pitch
 ## Problem Statement
 
 Mechanical grape harvesters and grape growers working with clients like Cornell CALS Extension, E&J Gallo Winery, and the National Grape Association are trying to remove Spotted Lanternflies (SLF) from grapes during harvest in conveyor systems on mechanical harvesters, but SLF get collected with grapes, but more than 1–2 SLF per 1000g can trigger contamination concerns, leading to rejected loads.Current post-harvest washing or manual sorting removes only up to ~50% of SLF and reduces usable yield, making these methods ineffective at commercial throughput. The challenge is designing an inline solution that removes SLF without bruising grapes, slowing harvest, or requiring major harvester redesign, all while handling a harvest stream of crushed fruit, stems, juice, and debris.
@@ -84,3 +88,6 @@ Test conveyor belt with an effective sorting system attached to the conveyor
 ## Figure
 
 ![Proposed inline pneumatic sorting system](/assets/sfl-sketch.jpeg)
+
+## Functional Prototype
+

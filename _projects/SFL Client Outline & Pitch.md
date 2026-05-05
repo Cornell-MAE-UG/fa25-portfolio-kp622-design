@@ -21,9 +21,11 @@ header-includes:
 **Team:** Di-Vine Intervention **Client(s):** Cornell CALS Extension / E\&J Gallo Winery / National Grape
 
 ---
+Designed and tested an inline mechanical-pneumatic system to remove Spotted Lanternflies from grapes during mechanical harvesting.
 ## Table of Contents
 [Client Pitch](#client-pitch)
 [Functional Prototype](#functional-prototype)
+[Client Report](#client-report)
 
 ## Client Pitch
 ## Problem Statement
@@ -316,3 +318,179 @@ The prototype must efficiently remove SLF models while remaining safe and repeat
 - Assembly Time: Prototype can be assembled in under 10 minutes by one user following instructions. Measured using stopwatch. Medium priority.
 - Conveyor Consistency: Grapes move smoothly along simulated conveyor at a consistent speed of 0.5–1 in/sec. Measured using ruler and stopwatch. Demonstrable on exhibit day. High priority.
 - Brush Speed Control: Brush rotates within 450–500 RPM range; measured with tachometer. High priority.
+
+## Client Report
+
+## 1. Context and Problem Statement
+
+Mechanical grape harvesting operates at industrial scales of approximately 2–3 tons per hour but unintentionally collects Spotted Lanternflies (SLF) along with harvested grapes. Even low contamination levels (approximately 1–2 insects per 1000g) can result in rejected loads due to quality control and regulatory concerns.  
+
+Existing mitigation strategies such as manual sorting and post-harvest washing are not compatible with commercial throughput requirements. These approaches introduce significant processing delays, increase labor demand, and are incompatible with continuous harvesting operations.  
+
+### 1.1 Design Objective
+
+Develop a mechanical system for removing SLF during harvesting that preserves throughput and minimizes grape damage, and is compatible with both standalone operation and retrofit integration with existing conveyor-based harvesting systems.  
+
+---
+
+## 2. Final Prototype and Application
+
+A modular inline separation system was developed, integrating mechanical agitation and pneumatic separation to remove SLF during conveyor transport.  
+
+### 2.1 System Architecture
+
+- Conveyor transport system for continuous material flow  
+- Directed airflow subsystem for insect separation  
+- Rotary brush subsystem for mechanical agitation of grape clusters  
+
+As grapes travel along the conveyor, they pass beneath a rotating brush that dislodges attached insects. A directed airflow system then separates SLF based on their lower mass and higher aerodynamic sensitivity relative to grapes. Grapes continue to the collection trough while the SLF are diverted into a separate containment bin.  
+
+<img width="348" height="224" alt="Image" src="https://github.com/user-attachments/assets/bb6a6371-a69f-468e-8170-a30083eeb121" />
+**Figure 1: Conceptual design of full-scale inline SLF separation system.**  
+
+This conceptual model represents the intended scalable deployment of the system in a commercial harvesting environment. The separation mechanism is maintained as a continuous flow process to ensure compatibility with high-throughput vineyard operations.  
+
+<img width="587" height="309" alt="Image" src="https://github.com/user-attachments/assets/17fdacb7-af4e-432f-b189-5bf7dc79058b" />
+**Figure 2: CAD model of proposed system implementation.**  
+
+---
+
+## 3. Testing and Results
+
+Experimental testing was conducted using fresh grapes and representative SLF models to evaluate separation performance and fruit integrity.  
+
+### 3.1 Key Performance Outcomes
+
+- Average SLF removal efficiency: 72%  
+- Observed variation in removal efficiency: 57–100% across conveyor width  
+- Optimal operating condition: ~500 RPM brush speed with high conveyor velocity and maximum airflow  
+- Grape integrity: no significant observable damage under tested conditions  
+
+Performance variation was primarily attributed to non-uniform brush contact across the conveyor width, indicating a need for improved mechanical consistency.  
+
+---
+
+## 4. Conclusion and Recommendations
+
+The prototype demonstrates that inline mechanical and pneumatic separation can effectively reduce SLF contamination without interrupting throughput or damaging grapes.  
+
+### 4.1 Recommendation
+
+- Proceed with iterative development and scaled validation  
+
+### 4.2 Recommended Next Steps
+
+- Improve brush uniformity to ensure consistent contact across full conveyor width  
+- Replace ad hoc airflow source with engineered compressed air manifold (target 5–10 m/s)  
+- Integrate vacuum-based capture to prevent re-entrainment of dislodged insects  
+- Conduct testing under higher throughput conditions representative of commercial harvesters  
+
+The system demonstrates sufficient performance to justify further development toward field-scale validation, with improvements focused on consistency and scalability.  
+
+---
+
+## 5. Prototype and Assembly Details
+
+The prototype was constructed as a simplified conveyor-based system designed to replicate industrial harvesting flow.  
+
+### 5.1 Structural Frame
+
+- Wooden base structure with supporting side walls  
+- Central alignment for conveyor integration  
+
+### 5.2 Conveyor System
+
+- Cardboard rollers mounted on wooden dowels  
+- Paper-based belt reinforced with wax paper for durability  
+- Manual actuation via 3D-printed end knobs  
+
+### 5.3 Rotary Brush Subsystem
+
+- Machined shaft driven by handheld drill  
+- Bristles mounted using custom 3D-printed shaft rings  
+- Epoxy bonding used to prevent relative motion and improve stability  
+
+### 5.4 Airflow Subsystem
+
+- Hair dryer used as a surrogate for compressed air system during testing  
+- Positioned downstream of brush for immediate insect removal  
+
+### 5.5 Collection System
+
+- Primary collection bin for grapes at conveyor exit  
+- Secondary side-mounted bin for SLF capture  
+
+### 5.6 Design Iterations
+
+- Replaced geared conveyor concept due to jamming and misalignment  
+- Improved brush fixation to eliminate independent rotation  
+- Adjusted brush height and alignment to optimize contact consistency  
+
+<img width="503" height="278" alt="Image" src="https://github.com/user-attachments/assets/81c578e2-82c1-4401-b0ce-a121f201bc6e" />
+**Figure 3: Final prototype integrating conveyor, rotary brush, and airflow separation system.**  
+
+---
+
+## 6. Bill of Materials
+
+| Item | Quantity / Mass | Unit Cost | Cost Basis | Total Cost ($) | Source |
+|------|----------------|----------|------------|----------------|--------|
+| Brush | 3 | 9.00 per unit | | 27.00 | McMaster-Carr |
+| Shaft | 1 | 14.00 per unit | | 14.00 | McMaster-Carr |
+| Air Compressor | 1 | 17.00 per unit | | 17.00 | Amazon |
+| Drill | 1 | 79.99 per unit | | 79.99 | Amazon |
+| Adapter | 1 | 9.99 per unit | | 9.99 | Amazon |
+| CAD (Mount) | 25 g | 0.05 per gram | | 1.25 | RPL |
+| CAD (Collection Trough) | 786 g | 0.05 per gram | | 39.30 | RPL |
+| CAD (Knobs) | 20 g | 0.05 per gram | | 1.00 | RPL |
+| Machining | 3 | 5.00 per unit | | 15.00 | MLS |
+| Plywood | 4 | 1.75 per unit | | 7.00 | TDS |
+| Plywood (alt) | 3 | 3.00 per unit | | 9.00 | TDS |
+
+**Total Spent: 220.53**
+
+---
+
+### 6.1 Structural Components
+
+- Wooden base boards (2) – TDS  
+- Wooden side walls (4) – TDS  
+
+### 6.2 Conveyor System
+
+- Cardboard rollers (2) – TDS  
+- Wooden dowels (2) – TDS  
+- Paper conveyor belt with wax-paper coating – TDS  
+- 3D-printed drive knobs (4) – RPL  
+
+### 6.3 Brush System
+
+- Machined steel shaft – McMaster-Carr  
+- Bristle material (brush segments) – McMaster-Carr  
+- 3D-printed shaft mounting rings – RPL  
+- Epoxy adhesive – TDS  
+- Handheld drill (drive source) – Amazon  
+
+### 6.4 Airflow System
+
+- Hair dryer (temporary airflow generation unit) – Dyson (self-funded; not charged to project budget)  
+
+### 6.5 Collection System
+
+- 3D-printed SLF collection bin – RPL  
+- Wooden mounting supports – TDS  
+
+### 6.6 Miscellaneous Materials
+
+- Hot glue adhesive – TDS  
+- Fasteners and general mounting hardware – TDS  
+- Paper SLF test models – TDS  
+- Grapes (experimental validation material) – Mac’s Cafe (self-funded; not charged to project budget)  
+
+---
+
+## 7. References
+
+[1] evokeAG. “Harvest Optimisation Technology to Remove MOG.” 2021.  
+[2] Kurtural, S. Kaan. “Mechanical Harvesting – Tools of the Trade.” UC Davis.  
+[3] WECO Sorting. “The Science of Optical Sorting.” 2022.  
